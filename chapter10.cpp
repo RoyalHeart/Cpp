@@ -6,6 +6,7 @@ int main(void)
     int arr[5] = {1, 2, 3, 4, 5};
     // ctreate an array of characters
     char name[] = "Tam";
+    // loop thourgh 5 elements of the integer array
     for (int i = 0; i < 5; i++)
     {
         std::cout << arr[i] << std::endl;
