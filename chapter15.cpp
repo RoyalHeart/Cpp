@@ -25,7 +25,7 @@ int main(void)
     // 15.3
     std::cout << "15.3" << std::endl;
     double mydouble = 3.1415;
-    double &myreference = mydouble;
+    double &myreference = mydouble; // myreference and mydouble have the same value
     myreference = 6.28;
     std::cout << "The values are: " << mydouble << " and " << myreference << std::endl;
     mydouble = 9.45;
@@ -38,7 +38,7 @@ int main(void)
     std::cout << "15.4" << std::endl;
     std::string s1 = "Hello";
     std::string s2 = "World!";
-    std::string s3 = s1 + ' ' + s2;
+    std::string s3 = s1 + ' ' + s2; // concatenate Hello, ' ', and World!
     std::cout << "The final string is: " << s3 << std::endl;
     // result:
     // The final string is: Hello World!
@@ -47,7 +47,7 @@ int main(void)
     std::cout << "15.5" << std::endl;
     std::string fullname;
     std::cout << "Please enter your fullname: ";
-    std::getline(std::cin, fullname);
+    std::getline(std::cin, fullname); // input fullname
     std::cout << "Your full name is: " << fullname << std::endl;
     // result:
     // Please enter your fullname: Thai Hoang Tam
